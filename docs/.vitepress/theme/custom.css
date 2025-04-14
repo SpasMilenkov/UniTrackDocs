@@ -1,0 +1,137 @@
+:root {
+  /* Primary colors from your app theme */
+  --vp-c-brand: #22c55e; /* Emerald-600 as primary */
+  --vp-c-brand-light: #34d399; /* Emerald-500 */
+  --vp-c-brand-lighter: #6ee7b7; /* Emerald-300 */
+  --vp-c-brand-dark: #16a34a; /* Emerald-700 */
+  --vp-c-brand-darker: #15803d; /* Emerald-800 */
+
+  /* Secondary colors */
+  --vp-c-secondary: #3b82f6; /* Blue-500 */
+  --vp-c-secondary-light: #60a5fa; /* Blue-400 */
+  --vp-c-secondary-dark: #2563eb; /* Blue-600 */
+
+  /* Typography */
+  --vp-font-family-base: "Inter", -apple-system, sans-serif;
+  --vp-font-family-mono: "JetBrains Mono", monospace;
+
+  /* Action buttons */
+  --vp-button-brand-bg: var(--vp-c-brand);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-dark);
+  --vp-button-brand-active-bg: var(--vp-c-brand-darker);
+
+  /* Custom border radius */
+  --vp-border-radius: 8px;
+
+  /* Home page */
+  --vp-home-hero-name-color: var(--vp-c-brand);
+  --vp-home-hero-image-background-image: linear-gradient(
+    to right,
+    rgba(34, 197, 94, 0.2),
+    rgba(59, 130, 246, 0.2)
+  );
+  --vp-home-hero-image-filter: blur(40px);
+
+  /* Sidebar */
+  --vp-sidebar-width: 260px !important; /* Default is usually around 272px */
+}
+
+/* Dark mode adjustments */
+.dark {
+  --vp-c-bg: rgb(16, 16, 20); /* Dark background from your theme */
+  --vp-c-bg-alt: #18181c; /* Card background color */
+  --vp-c-bg-soft: #262629; /* Secondary background */
+
+  --vp-c-text-1: #f5f5f5; /* Primary text color */
+  --vp-c-text-2: #9ca3af; /* Secondary text color */
+  --vp-c-text-3: rgba(156, 163, 175, 0.7); /* Muted text */
+
+  --vp-c-divider: #374151; /* Border color */
+  --vp-c-gutter: #262629; /* Gutter color */
+
+  /* Brand colors for dark mode */
+  --vp-c-brand: #4ade80; /* Emerald-400 for better visibility in dark mode */
+  --vp-c-brand-light: #86efac; /* Emerald-300 */
+  --vp-c-brand-dark: #22c55e; /* Emerald-600 */
+}
+
+/* Header border */
+.VPNav {
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+/* Code blocks */
+.vp-doc pre {
+  border-radius: var(--vp-border-radius);
+  background: #18181c !important; /* Card background */
+  border: 1px solid rgba(55, 65, 81, 0.5); /* Subtle border */
+}
+
+/* Code block hover state */
+.vp-doc pre:hover {
+  border-color: var(--vp-c-brand-dark);
+}
+
+/* Inline code */
+.vp-doc code {
+  color: var(--vp-c-brand-lighter);
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+}
+
+/* Custom component styles */
+.custom-block {
+  border-radius: var(--vp-border-radius);
+  border-left-width: 4px;
+}
+
+/* Tip blocks */
+.custom-block.tip {
+  border-color: var(--vp-c-brand);
+  background-color: rgba(74, 222, 128, 0.1);
+}
+
+/* Warning blocks */
+.custom-block.warning {
+  border-color: #f59e0b; /* Amber-500 */
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+/* Danger blocks */
+.custom-block.danger {
+  border-color: #ef4444; /* Red-500 */
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+/* Sidebar */
+.VPSidebar {
+  background-color: var(--vp-c-bg);
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+/* Active sidebar links */
+.VPSidebarItem.is-active .VPLink {
+  color: var(--vp-c-brand) !important;
+  font-weight: 600;
+}
+
+/* Smooth transitions */
+.VPSidebarItem .VPLink,
+.VPNavBarMenuLink {
+  transition: color 0.2s ease;
+}
+
+/* Button hover animations */
+.VPButton {
+  transition: all 0.2s ease;
+}
+
+.VPButton:hover {
+  transform: translateY(-1px);
+}
+
+@media (min-width: 960px) {
+  .dark .VPNavBar.has-sidebar .content[data-v-cf6e7c5e] {
+    background: rgba(16, 16, 16, 0.7);
+  }
+}
