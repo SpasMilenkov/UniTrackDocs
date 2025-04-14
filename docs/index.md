@@ -15,45 +15,9 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/SpasMilenkov/UniTrackRemaster
-
-features:
-  - icon: 🏛️
-    title: Multi-Institution Support
-    details: Manage multiple schools, universities, and educational organizations from a single platform
-    link: /en/modules/dashboard
-    linkText: Explore Dashboard
-  - icon: 👩‍🏫
-    title: Comprehensive User Management
-    details: Role-specific interfaces for students, teachers, administrators, and parents
-    link: /en/intro
-    linkText: Learn More
-  - icon: 📊
-    title: Powerful Analytics
-    details: Track performance metrics with beautiful visualizations and actionable insights
-    link: /en/modules/analytics
-    linkText: View Analytics
-  - icon: 🔧
-    title: Flexible & Customizable
-    details: Easily adapt the system to your institution's unique requirements
-    linkText: API Documentation
-  - icon: 🚀
-    title: Modern Technology Stack
-    details: Built with ASP.NET Core and Vue.js for optimal performance and scalability
-    link: /en/setup
-    linkText: Technical Details
-  - icon: 🌐
-    title: Open Source
-    details: Transparent development with community contributions welcome
-    link: https://github.com/SpasMilenkov/UniTrackRemaster
-    linkText: Contribute
 ---
 
 <div class="landing-container">
-  <div class="animated-card">
-    <h2>🎓 Transform Your Educational Institution</h2>
-    <p>UniTrack offers a complete solution for managing academic processes, student records, curriculum planning, and more.</p>
-  </div>
-
   <div class="project-info">
     <h2>🎯 About This Project</h2>
     <p>UniTrack was created as a Diploma Project by <strong>Spas Milenkov</strong>, a student of Software Science at Technical University Sofia.</p>
