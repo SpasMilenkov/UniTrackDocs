@@ -3,6 +3,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 
 export default withMermaid(
   defineConfig({
+    base: "/UniTrackDocs/",
     title: "UniTrack Docs",
     description: "Documentation for your university management system",
     appearance: "dark",
