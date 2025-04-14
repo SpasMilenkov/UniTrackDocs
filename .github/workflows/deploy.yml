@@ -8,7 +8,7 @@ jobs:
   deploy:
     if: "contains(github.event.head_commit.message, '(deploy)')"
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -17,7 +17,7 @@ jobs:
           cache: npm
 
       - run: npm install
-      - run: npm run docs:build
+      - run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
