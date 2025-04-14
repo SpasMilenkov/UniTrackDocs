@@ -231,4 +231,3 @@ To bring changes from development to production:
 ## 📚 Next Steps
 
 - Review the [Application Configuration](/en/setup/config) options
-- Explore the [API Documentation](/en/modules/api)

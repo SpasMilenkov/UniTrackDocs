@@ -35,7 +35,6 @@ features:
   - icon: 🔧
     title: Flexible & Customizable
     details: Easily adapt the system to your institution's unique requirements
-    link: /en/modules/api
     linkText: API Documentation
   - icon: 🚀
     title: Modern Technology Stack

@@ -15,9 +15,8 @@ Before you begin, make sure you have the following installed on your system:
 
 UniTrack offers several setup options depending on your needs:
 
-1. **[Docker Development Setup](/en/setup/docker-dev)** - Quick setup for local development
-2. **[Docker Production Setup](/en/setup/docker-prod)** - Full production deployment with Docker Swarm
-3. **[Manual Setup](/en/setup/manual)** - For advanced users who want to run components individually
+1. **[Docker Development Setup](/en/setup/deployment-dev)** - Quick setup for local development
+2. **[Docker Production Setup](/en/setup/deployment-prod)** - Full production deployment with Docker Swarm
 
 ## 🏁 Quick Start
 
@@ -55,17 +54,15 @@ UniTrack is designed to be lightweight, but for optimal performance we recommend
 
 The complete setup documentation is organized as follows:
 
-- **[Docker Development Setup](/en/setup/docker-dev)** - For local development
-- **[Docker Production Setup](/en/setup/docker-prod)** - For production environments
-- **[Manual Setup](/en/setup/manual)** - Advanced component-by-component setup
+- **[Docker Development Setup](/en/setup/deployment-dev)** - For local development
+- **[Docker Production Setup](/en/setup/deployment-prod)** - For production environments
 - **[Configuration Options](/en/setup/config)** - Details on all configuration parameters
 - **[Troubleshooting](/en/setup/troubleshooting)** - Common issues and solutions
 
 ## ⚠️ Important Notes
 
-- The first user to register on a new installation will automatically be assigned administrator privileges
 - Default database credentials should be changed before exposing the system to the internet
 - For educational institutions, we recommend starting with a test deployment before migrating to production
 - Firebase credentials are required for certain features like notifications
 
-Next, proceed to the [Docker Production Setup](/en/setup/docker-prod) to learn about setting up UniTrack in a production environment.
+Next, proceed to the [Docker Production Setup](/en/setup/deployment-prod) to learn about setting up UniTrack in a production environment.

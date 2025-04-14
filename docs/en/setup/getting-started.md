@@ -143,7 +143,7 @@ Before deployment, ensure you have:
 - SSL certificates (for production deployment)
 - Firebase project credentials file
 
-Ready to get started? Head over to our detailed [Docker Development Guide](/setup/docker-deployment-dev) or [Production Deployment Guide](/setup/docker-deployment-prod) for step-by-step instructions!
+Ready to get started? Head over to our detailed [Docker Development Guide](en/setup/deployment-dev) or [Production Deployment Guide](en/setup/deployment-prod) for step-by-step instructions!
 
 <style>
 .deployment-banner {

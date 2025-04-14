@@ -76,7 +76,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NUXT_PUBLIC_API_BASE_URL=http://localhost:5086
+      - NUXT_PUBLIC_API_BASE_URL=
     volumes:
       - ./UniTrackRemasterFrontend:/app
       - frontend_node_modules:/app/node_modules
@@ -231,4 +231,3 @@ To bring changes from development to production:
 ## 📚 Next Steps
 
 - Review the [Application Configuration](/en/setup/config) options
-- Explore the [API Documentation](/en/modules/api)

@@ -100,9 +100,9 @@ UniTrack supports multiple deployment scenarios:
 
 To quickly get started with UniTrack:
 
-1. Check out the [Getting Started](/setup/getting-started) guide
-2. Learn about deployment options with [Docker Development](/setup/docker-deployment-dev)
-3. Explore the available [Modules](/modules/dashboard-module)
+1. Check out the [Getting Started](en/setup/getting-started) guide
+2. Learn about deployment options with [Docker Development](en/setup/deployment-dev)
+3. Explore the available [Modules](en/modules/modules/dashboard-module)
 
 ## 🎯 About This Project
 
