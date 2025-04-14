@@ -137,5 +137,6 @@ export default withMermaid(
         copyright: "Copyright © 2025 Spas Milenkov",
       },
     },
+    ignoreDeadLinks: true,
   })
 );
