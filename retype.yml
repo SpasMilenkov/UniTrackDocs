@@ -1,0 +1,59 @@
+input: .
+output: .retype
+url: https://yourusername.github.io/your-repo-name # Update with your actual GitHub Pages URL
+
+start:
+  path: README.md
+
+branding:
+  title: UniTrack Docs
+  label: Documentation
+  logo: assets/images/logo.png # Add your logo file if you have one
+  colors:
+
+links:
+  - text: Getting Started
+    link: /getting-started/
+  - text: API Reference
+    link: /api/
+  - text: GitHub
+    link: https://github.com/SpasMilenkov/UniTrackRemaster
+    icon: mark-github
+
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  links:
+    - text: Privacy Policy
+      link: /privacy/
+    - text: Terms of Service
+      link: /terms/
+
+# Enable edit links for GitHub
+edit:
+  repo: https://github.com/yourusername/your-repo-name
+  base: /
+  branch: main
+  label: Edit this page
+
+css:
+  - custom.css
+
+# Search configuration
+search:
+  placeholder: "Search documentation..."
+
+# Navigation settings
+navigation:
+  - text: Home
+    link: /
+  - text: Documentation
+    link: /docs/
+  - text: API
+    link: /api/
+
+page:
+  breadcrumbs: true
+  contributors: true
+  lastUpdated: true
+  readingTime: true
+  navigation: true
