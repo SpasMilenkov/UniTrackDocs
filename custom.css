@@ -1,0 +1,14 @@
+/* Minimal Retype color override - test this first */
+:root {
+  /* Your brand colors */
+  --my-primary: #3b82f6;
+  --my-primary-dark: #1d4ed8;
+
+  /* Override Retype's main brand color */
+  --color-ts-brand: var(--my-primary) !important;
+  --color-ts-brand-dark: var(--my-primary-dark) !important;
+}
+
+.header-anchor-trigger {
+    color: red;
+}
