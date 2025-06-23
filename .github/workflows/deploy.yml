@@ -1,28 +1,21 @@
-name: Deploy to GitHub Pages
-
+name: Publish Retype powered website to GitHub Pages
 on:
+  workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
-  deploy:
-    if: "contains(github.event.head_commit.message, '(deploy)')"
+  publish:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
 
-      - run: npm install
-      - run: npm run build
+      - uses: retypeapp/action-build@latest
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: retypeapp/action-github-pages@latest
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/.vitepress/dist
+          update-branch: true
